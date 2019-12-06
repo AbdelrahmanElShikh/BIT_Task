@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Be In Track</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="posts">Posts</string>
+    <string name="image_error">Sorry we are having trouble loading this image</string>
+    <string name="back">back</string>
+</resources>
