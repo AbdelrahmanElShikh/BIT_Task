@@ -3,7 +3,7 @@ package com.abdelrahman.beintrack.ui;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.abdelrahman.beintrack.Repositories.UserRepository;
+import com.abdelrahman.beintrack.repositories.UserRepository;
 import com.abdelrahman.beintrack.api.ApiResponse;
 import com.abdelrahman.beintrack.models.Media;
 import com.abdelrahman.beintrack.models.Profile;
@@ -13,7 +13,7 @@ import com.abdelrahman.beintrack.models.Profile;
  */
 public class UserViewModel extends ViewModel {
     private UserRepository userRepository;
-    public void init(){
+    void init(){
         userRepository = UserRepository.getInstance();
     }
 
